@@ -26,7 +26,7 @@ const projects = [
   {
     title: 'to-do-list',
     description: '',
-    imageUrl: '/screenshot_2025-05-07_182308.png',
+    imageUrl: '/screenshot_2025-05-07_205239.png',
     link: 'to-do-client-omega.vercel.app', // Replace with your project link
   },
 ];
