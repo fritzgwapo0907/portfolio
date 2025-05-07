@@ -6,7 +6,7 @@ export default function SocialLinks() {
           <li><a href="https://github.com/fritzgwapo0907" target="_blank">GitHub</a></li>
           <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
           <li><a >fritztacanay0907@gmail.com</a></li>
-          <li><a href="mailto:you@example.com">Facebook</a></li>
+          <li><a href="https://web.facebook.com/fritztacanay/">Facebook</a></li>
         </ul>
       </section>
     );

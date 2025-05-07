@@ -2,31 +2,31 @@ const projects = [
   {
     title: 'CALCULATOR',
     description: 'A sleek portfolio built with React and Vite.',
-    imageUrl: 'https://example.com/portfolio-image.jpg', // Replace with your image URL
+    imageUrl: '/screenshot_2025-05-07_182308.png',
     link: 'calculator/index.html', // Replace with your project link
   },
   {
     title: 'ARRAY_OBJECTS',
     description: 'A full-stack task management app with user authentication.',
-    imageUrl: 'https://example.com/task-manager-image.jpg', // Replace with your image URL
+    imageUrl: '/screenshot_2025-05-07_182308.png',
     link: 'array_objects/index.html', // Replace with your project link
   },
   {
     title: 'CONVERTER',
     description: 'An e-commerce platform built with Node.js and Express.',
-    imageUrl: 'https://example.com/ecommerce-image.jpg', // Replace with your image URL
+    imageUrl: '/screenshot_2025-05-07_182308.png',
     link: 'converter/index.html', // Replace with your project link
   },
   {
     title: 'MATH OPERATION',
     description: 'A simple blog platform with CRUD functionality.',
-    imageUrl: 'https://example.com/blog-app-image.jpg', // Replace with your image URL
+    imageUrl: '/screenshot_2025-05-07_182308.png',
     link: 'loop/index.html', // Replace with your project link
   },
   {
     title: 'to-do-list',
     description: 'A weather forecasting app using OpenWeather API.',
-    imageUrl: 'https://example.com/weather-dashboard-image.jpg', // Replace with your image URL
+    imageUrl: '/screenshot_2025-05-07_182308.png',
     link: 'to-do-client-omega.vercel.app', // Replace with your project link
   },
 ];
