@@ -25,7 +25,7 @@ const projects = [
   },
   {
     title: 'to-do-list',
-    description: '',
+    description: 'A to-do-list system built with react and express',
     imageUrl: '/screenshot_2025-05-07_205239.png',
     link: 'https://to-do-client-omega.vercel.app/', // Replace with your project link
   },
