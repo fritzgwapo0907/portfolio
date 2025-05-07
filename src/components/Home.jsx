@@ -7,11 +7,11 @@ export default function Home() {
       <section className="hero">
   <div className="hero-text">
     <h1>Welcome to my Portfolio</h1>
-    <p>I'm Mami Oni — Minimalist. Passionate. Focused.</p>
+    <p>I'm Fritz — Silly. Passionate. Energetic.</p>
     <a href="#projects" className="btn">View Projects</a>
   </div>
   <div className="hero-image">
-  <img src="/622ed1e3512c5a75e1787d6000e25c19.810x810x1.jpg" alt="Profile Picture" />
+  <img src="/fritz.jpg" alt="Profile Picture" />
 
   </div>
 </section>
