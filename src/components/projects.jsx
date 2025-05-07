@@ -1,31 +1,31 @@
 const projects = [
   {
     title: 'CALCULATOR',
-    description: 'A sleek portfolio built with React and Vite.',
+    description: 'A sleek calculator built with js.',
     imageUrl: '/screenshot_2025-05-07_182308.png',
     link: 'calculator/index.html', // Replace with your project link
   },
   {
     title: 'ARRAY_OBJECTS',
-    description: 'A full-stack task management app with user authentication.',
+    description: 'A employee list system use to add employee.',
     imageUrl: '/screenshot_2025-05-07_182353.png',
     link: 'array_objects/index.html', // Replace with your project link
   },
   {
     title: 'CONVERTER',
-    description: 'An e-commerce platform built with Node.js and Express.',
+    description: 'A converter platform built with js, css, and html.',
     imageUrl: '/screenshot_2025-05-07_182414.png',
     link: 'converter/index.html', // Replace with your project link
   },
   {
     title: 'MATH OPERATION',
-    description: 'A simple blog platform with CRUD functionality.',
+    description: 'A simple loop built with js.',
     imageUrl: '/screenshot_2025-05-07_182434.png',
     link: 'loop/index.html', // Replace with your project link
   },
   {
     title: 'to-do-list',
-    description: 'A weather forecasting app using OpenWeather API.',
+    description: '',
     imageUrl: '/screenshot_2025-05-07_182308.png',
     link: 'to-do-client-omega.vercel.app', // Replace with your project link
   },
