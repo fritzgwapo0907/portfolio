@@ -61,7 +61,7 @@ function App() {
   <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
     <div className="bg-gray-800 px-4 py-2 rounded-lg">🎓 3rd Year BSIT</div>
     <div className="bg-gray-800 px-4 py-2 rounded-lg">🏆 Dean’s Lister</div>
-    <div className="bg-gray-800 px-4 py-2 rounded-lg">💻 6+ Projects</div>
+    <div className="bg-gray-800 px-4 py-2 rounded-lg">💻 4+ Projects</div>
     <div className="bg-gray-800 px-4 py-2 rounded-lg">⚙️ React, Flask</div>
   </div>
 
