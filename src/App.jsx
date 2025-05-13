@@ -15,7 +15,7 @@ function App() {
     },
     {
       title: 'ARRAY_OBJECTS',
-      description: 'An employee list system used to add employee.',
+      description: 'An employee list system use to add employee.',
       imageUrl: '/screenshot_2025-05-07_182353.png',
       link: 'array_objects/index.html',
     },
