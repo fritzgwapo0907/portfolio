@@ -57,11 +57,18 @@ function App() {
     {
       title: "Cybersecurity for Everyone",
       issuer: "Department of Information and Communications Technology (DICT-CAR)",
-      imageUrl: "/cybersecurity_pnpki.png",
+      imageUrl: "/webinar.png",
+      pdfUrl: "/Fritz_Tacanay.pdf",
     },
   ];
 
   const certificates = [
+    {
+      title: "Data Analytics Essentials",
+      issuer: "Cisco Networking Academy",
+      imageUrl: "/dataanalytics.png",
+      pdfUrl: "/DataAnalyticsEssentials.pdf",
+    },
     {
       title: "Apply AI-Update Your Resume",
       issuer: "Cisco Networking Academy",
@@ -207,21 +214,33 @@ function App() {
         );
 
       case "Webinars":
-        return (
-          <div className="flex flex-col items-center text-center px-4 text-gray-200 space-y-10">
-            <h1 className="text-3xl md:text-4xl font-bold">Webinars Attended</h1>
+  return (
+    <div className="flex flex-col items-center text-center px-4 text-gray-200 space-y-10">
+      <h1 className="text-3xl md:text-4xl font-bold">Webinars Attended</h1>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl mx-auto">
-              {webinars.map((webinar, index) => (
-                <div key={index} className="bg-gray-800 p-4 rounded-xl shadow hover:shadow-xl transition">
-                  <img src={webinar.imageUrl} alt={webinar.title} className="w-full h-40 object-cover rounded-md mb-3" />
-                  <h3 className="text-lg font-semibold">{webinar.title}</h3>
-                  <p className="text-sm text-gray-400">{webinar.issuer}</p>
-                </div>
-              ))}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl mx-auto">
+        {webinars.map((webinar, index) => (
+          <a
+            key={index}
+            href={webinar.pdfUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="bg-gray-800 p-4 rounded-xl shadow hover:shadow-xl transition cursor-pointer">
+              <img
+                src={webinar.imageUrl}
+                alt={webinar.title}
+                className="w-full h-40 object-cover rounded-md mb-3"
+              />
+              <h3 className="text-lg font-semibold">{webinar.title}</h3>
+              <p className="text-sm text-gray-400">{webinar.issuer}</p>
             </div>
-          </div>
-        );
+          </a>
+        ))}
+      </div>
+    </div>
+  );
 
       case "Certificates":
   return (
@@ -237,7 +256,7 @@ function App() {
             rel="noopener noreferrer"
             className="block"
           >
-            <div className="bg-gray-800 p-4 rounded-xl shadow hover:shadow-xl transition cursor-pointer">
+            <div className="bg-gray-800 p-4 rounded-xl shadow hover:shadow-xl transition cursor-pointer flex flex-col items-center">
               <img
                 src={cert.imageUrl}
                 alt={cert.title}
