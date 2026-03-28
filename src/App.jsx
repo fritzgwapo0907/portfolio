@@ -326,12 +326,23 @@ function App() {
 
       </div>
 
-      <footer className="bg-gray-800 py-4 flex justify-center gap-6">
-        <FaFacebook />
-        <FaInstagram />
-        <FaLinkedin />
-        <FaGithub />
-      </footer>
+      <footer className="bg-gray-800 py-4 flex justify-center gap-6 text-white text-xl">
+  <a href="https://www.facebook.com/fritztacanay" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition">
+    <FaFacebook />
+  </a>
+
+  <a href="https://www.instagram.com/fritzfriessss/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition">
+    <FaInstagram />
+  </a>
+
+  <a href="https://www.linkedin.com/in/fritz-gerald-tacanay-6973a5361" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
+    <FaLinkedin />
+  </a>
+
+  <a href="https://github.com/fritzgwapo0907" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition">
+    <FaGithub />
+  </a>
+</footer>
     </div>
   );
 }
